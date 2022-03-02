@@ -1,7 +1,8 @@
 # Convert-Video-file-to-mp3-and-text-
 
 -----FIRST---- you need to insall following things
-ffmpeg you can download it from https://ffmpeg.zeranoe.com/builds/win64/static/ffmpeg-20190119-32fb83e-win64-static.zip
+ffmpeg you can download it from 
+https://www.ffmpeg.org/download.html
 
 after that Extract that zip file
 
