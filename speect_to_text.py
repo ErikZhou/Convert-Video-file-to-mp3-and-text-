@@ -8,7 +8,7 @@ class Converter:
 
     file_name = ""
     path = ""
-    output = "/music.wav"
+    output = "music.wav"
     # convert_to_audio will convert mp4 video file to 3gp and after that 3gp to wav file
     # Lower size of file will give better performance
     def convert_to_audio(self, path, file_name):
