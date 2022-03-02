@@ -61,6 +61,7 @@ def get_large_audio_transcription(path):
 
 whole_text = get_large_audio_transcription(filename)
 
+#TODO write files for each chunk
 f = open("whole_text.txt", "w")
 f.write(whole_text)
 f.close()
