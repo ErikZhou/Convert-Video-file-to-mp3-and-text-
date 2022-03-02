@@ -59,4 +59,8 @@ def get_large_audio_transcription(path):
     return whole_text
 
 
-get_large_audio_transcription(filename)
+whole_text = get_large_audio_transcription(filename)
+
+f = open("whole_text.txt", "w")
+f.write(whole_text)
+f.close()
