@@ -1,4 +1,5 @@
 import os
+import sys
 import speech_recognition as sr
 import soundfile as sf
 
@@ -50,6 +51,8 @@ class Converter:
 
 
 
+folder_path = './'
+filepath = sys.argv[1]
 Convert_obj = Converter()
-Convert_obj.convert_to_audio('C:/Your/path/to/video','name_of_video.mp4')
+Convert_obj.convert_to_audio(folder_path,filepath)
 Convert_obj.convert_audio_to_text()
